@@ -9,10 +9,16 @@ namespace CabInvoiceGenerator
         public double distance;
         public int time;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="distance"></param>
+        /// <param name="time"></param>
         public Ride(double distance, int time)
         {
             this.distance = distance;
             this.time = time;
         }
+
     }
 }
